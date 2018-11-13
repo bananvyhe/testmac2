@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :apples
   resources :tables
   resources :tests
   resources :indexpages
